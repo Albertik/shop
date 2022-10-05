@@ -1,0 +1,49 @@
+$border-color: #BBBBBB;
+$contrast-color: #5BB166;
+$clear-color: #E2E2E2;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+#root{
+  position: relative;
+  min-height: 100vh;
+}
+.App{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+@mixin buttonPrimary {
+  border: none;
+  background-color: transparent;
+}
+
+@import "./Pages/Home/Home.scss";
+@import "./Pages/Menu/Menu.scss";
+@import "./Pages/Cart/Cart.scss";
+@import "./Pages/Product/Product.scss";
+@import "./Pages/Checkout/Checkout.scss";
+
+@import "./Containers/Header/Header.scss";
+@import "./Containers/Filter/Filter.scss";
+@import "./Containers/Skeleton/Skeleton.scss";
+@import "./Containers/SocialMedia/SocialMedia.scss";
+
+@import "./Components/SearchInput/SearchInput.scss";
+@import "./Components/ButtonCTA/ButtonCTA.scss";
+@import "./Components/Item/Item.scss";
+@import "./Components/Rating/Rating.scss";
+@import "./Components/ButtonSmall/ButtonSmall.scss";
+@import "./Components/Loader/Loader.scss";
+@import "./Components/Product/Product.scss";
+@import "./Components/ButtonCategory/ButtonCategory.scss";
+@import "./Components/CheckoutInput/CheckoutInput.scss";
