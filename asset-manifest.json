@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shop/static/css/main.903c61f1.css",
+    "main.js": "/shop/static/js/main.07aae409.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shop/static/js/787.d6fe38e8.chunk.js",
+    "static/media/github.png": "/shop/static/media/github.d23069b99ef6d58bba77.png",
+    "static/media/linkedin.png": "/shop/static/media/linkedin.e587d737f966bd23654e.png",
+    "static/media/twitter.png": "/shop/static/media/twitter.f3d1ee4c2a2a5c0e20a9.png",
+    "static/media/logo_julia.webp": "/shop/static/media/logo_julia.46fb7f3edc9eac22c11c.webp",
+    "index.html": "/shop/index.html",
+    "static/media/star.svg": "/shop/static/media/star.f18b2fadf3b42309674806de99238168.svg",
+    "static/media/cart.svg": "/shop/static/media/cart.c7fe1498050872f15dc11730ce706edd.svg",
+    "static/media/trash.svg": "/shop/static/media/trash.7100b308ebd9df969a0ab8e3c6dd833d.svg",
+    "static/media/arrow-left.svg": "/shop/static/media/arrow-left.ecf789c90a6754ae6b12421727244607.svg",
+    "main.903c61f1.css.map": "/shop/static/css/main.903c61f1.css.map",
+    "main.07aae409.js.map": "/shop/static/js/main.07aae409.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shop/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.903c61f1.css",
+    "static/js/main.07aae409.js"
+  ]
+}
