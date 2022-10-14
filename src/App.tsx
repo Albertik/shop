@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
 import { Layout } from './Layout';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import { Home } from './Pages/Home';
 import { Menu } from './Pages/Menu';
 import { Cart } from './Pages/Cart';
@@ -33,7 +33,7 @@ function App(): JSX.Element {
 	return (
 		<Ctx.Provider value={state}>
 			<section className='App'>
-				<BrowserRouter>
+				<HashRouter>
 					<Layout dispatch={dispatch}>
 						<Routes>
 							<Route path='/account' element={<Account />} />
@@ -45,7 +45,7 @@ function App(): JSX.Element {
 							<Route path='/form' element={<Form />} />
 						</Routes>
 					</Layout>
-				</BrowserRouter>
+				</HashRouter>
 			</section>
 		</Ctx.Provider>
 	);
