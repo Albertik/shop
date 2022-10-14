@@ -15,6 +15,7 @@ import { initialState, reducer } from './globalState';
 // css
 import './App.scss';
 import { StateInterface } from './globalTypes';
+import Account from './Pages/Account/index';
 
 function App(): JSX.Element {
 	const [state, dispatch] = useReducer(reducer, initialState());
@@ -35,6 +36,7 @@ function App(): JSX.Element {
 				<BrowserRouter>
 					<Layout dispatch={dispatch}>
 						<Routes>
+							<Route path='/account' element={<Account />} />
 							<Route path='/' element={<Home state={state as StateInterface} dispatch={dispatch} ctx={Ctx} />} />
 							<Route path='/menu' element={<Menu state={state as StateInterface} dispatch={dispatch} />} />
 							<Route path='/shopping-cart' element={<Cart state={state as StateInterface} dispatch={dispatch} />} />
