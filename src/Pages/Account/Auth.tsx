@@ -45,11 +45,11 @@ export default function Auth() {
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
 						/>
-						<button className='button block' aria-live='polite'>
+						<button type='submit' className='button block' aria-live='polite'>
 							Send magic link
 						</button>
 
-						<button onClick={signInWithFacebook} className='button block' aria-live='polite'>
+						<button type='button' onClick={signInWithFacebook} className='button block' aria-live='polite'>
 							Sign in with Facebook
 						</button>
 					</form>
