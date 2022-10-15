@@ -21,8 +21,12 @@ export default function Auth() {
 	};
 
 	async function signInWithFacebook() {
+		const redirectTo = window.location.origin + '/shop';
 		const { data, error } = await supabase.auth.signInWithOAuth({
 			provider: 'facebook',
+			options: {
+				redirectTo,
+			},
 		});
 		console.log(data, error);
 	}
